@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Shoe Library</string>
+
+    <string name="description">Description</string>
+    <string name="price">Price starts from</string>
+    <string name="detail">Details</string>
+    <string name="price_test">$765</string>
+    <string name="shoes_name">Nama Sepatu</string>
+    <string name="shoes_desc">These adidas SL20 Shoes will back your play. Lightweight cushioning gives you a faster push-off and a snappy feel.</string>
+    <string name="shoes_category">Kategori</string>
+    <string name="share">Share</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="about_me">About Me</string>
+    <string name="biodata">Biodata :</string>
+    <string name="my_name">Taufik Rahman W</string>
+    <string name="my_email">taufik.rahmanwidodo@gmail.com</string>
+    <string name="back">Back</string>
+
+    <string-array name="data_name">
+        <item>SL 20 Shoes</item>
+        <item>Ultra 4D 5 Shoes</item>
+        <item>Ultraboost 20 Shoes</item>
+        <item>LEGO® SPORT SHOES</item>
+        <item>Fortarun Running Shoes 2020</item>
+        <item>Faito Summer.RDY Tokyo Shoes</item>
+        <item>DAME 7 SHOES</item>
+        <item>Pro boots low shoes</item>
+        <item>D.O.N ISSUE 2.0 Shoes</item>
+        <item>Harden Vol. 4 Shoes</item>
+        <item>Terrex urban low Hiking Shoes</item>
+    </string-array>
+
+    <string-array name="data_category">
+        <item>Running</item>
+        <item>Running</item>
+        <item>Running</item>
+        <item>Training</item>
+        <item>Training</item>
+        <item>Training</item>
+        <item>Basketball</item>
+        <item>Basketball</item>
+        <item>Basketball</item>
+        <item>Basketball</item>
+        <item>Hiking</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>These adidas SL20 Shoes will back your play. Lightweight cushioning gives you a faster push-off and a snappy feel.</item>
+        <item>When the adidas Ultraboost debuted back in 2015, it had an impact that spilled beyond the world of running. For this version of the shoes.</item>
+        <item>Wear your values on your feet with these adidas running shoes. Rocking the wild colours shows you\'re not shy about standing out</item>
+        <item>These shoes keep kids comfortable through playtime, whether that means running around on building universes out of bricks.</item>
+        <item>Whether they\'re headed to school, day care or the playground with friends, send them out in all-day foot support with these adidas.</item>
+        <item>Whether you\'re running out the front door to log a few miles or want to bring a running-inspired style statement to your everyday.</item>
+        <item>Show up in big game style whether you\'re trying out for the team or challenging a friend to some one-on-on  in the park.</item>
+        <item>The superlight midsole features an innovative drop-in that provides outstanding energy return every time you plant.</item>
+        <item>These signature shoes from Mitchell and adidas Basketball feature graphics that highlight the young All-Star\'s style.</item>
+        <item>Most guys are finished by late in the fourth quarter. That\'s when James Harden is just getting started.</item>
+        <item>Unpaved trails and mixed surfaces are easy when you have the traction and support you need. Casual enough for the daily commute.</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>$123.00</item>
+        <item>$285.00</item>
+        <item>$206.00</item>
+        <item>$92.00</item>
+        <item>$34.00</item>
+        <item>$76.00</item>
+        <item>$125.00</item>
+        <item>$57.00</item>
+        <item>$111.00</item>
+        <item>$137.00</item>
+        <item>$143.00</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/sl20_1</item>
+        <item>@drawable/ultra_4d</item>
+        <item>@drawable/ultraboost_20</item>
+        <item>@drawable/lego_red_2</item>
+        <item>@drawable/fortarun</item>
+        <item>@drawable/faito_summer</item>
+        <item>@drawable/dame7</item>
+        <item>@drawable/proboost</item>
+        <item>@drawable/done</item>
+        <item>@drawable/harden</item>
+        <item>@drawable/terrex</item>
+    </integer-array>
+
+    <integer-array name="data_detail1">
+        <item>@drawable/sl20_2</item>
+        <item>@drawable/ultra_4d_2</item>
+        <item>@drawable/ultraboost_20_2</item>
+        <item>@drawable/lego_red</item>
+        <item>@drawable/fortarun_2</item>
+        <item>@drawable/faito_summer_2</item>
+        <item>@drawable/dame7_2</item>
+        <item>@drawable/proboost_2</item>
+        <item>@drawable/done_2</item>
+        <item>@drawable/harden_2</item>
+        <item>@drawable/terrex_2</item>
+    </integer-array>
+
+    <integer-array name="data_detail2">
+        <item>@drawable/sl20_3</item>
+        <item>@drawable/ultra_4d_3</item>
+        <item>@drawable/ultraboost_20_3</item>
+        <item>@drawable/lego_red_3</item>
+        <item>@drawable/fortarun_3</item>
+        <item>@drawable/faito_summer_3</item>
+        <item>@drawable/dame7_3</item>
+        <item>@drawable/proboost_3</item>
+        <item>@drawable/done3</item>
+        <item>@drawable/harden_3</item>
+        <item>@drawable/terrex_3</item>
+    </integer-array>
+</resources>

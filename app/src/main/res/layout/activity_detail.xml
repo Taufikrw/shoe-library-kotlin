@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            app:shapeAppearanceOverlay="@style/Image.Rounded"
+            android:id="@+id/img_product_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sl20_1"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextContent"
+                android:id="@+id/tv_product_name"
+                android:text="@string/shoes_name"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:textStyle="bold"
+                android:textSize="32sp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextContent.Subtitle"
+                android:id="@+id/tv_product_category"
+                android:text="@string/shoes_category"/>
+
+            <LinearLayout
+                style="@style/BackgroundPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/PriceText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/PriceText"
+                    android:id="@+id/tv_product_price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price_test"
+                    android:textStyle="bold"
+                    android:textAlignment="viewEnd"/>
+            </LinearLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextContent.TitleMedium"
+                android:text="@string/description"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextContent.Subtitle"
+                android:id="@+id/tv_product_desc"
+                android:text="@string/shoes_desc"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                style="@style/TextContent.TitleMedium"
+                android:layout_marginBottom="8dp"
+                android:text="@string/detail"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_product_detail"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:elevation="2dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/sl20_1" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_product_detail2"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:elevation="2dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/sl20_1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/action_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/share" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
